@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 /* GET home page /(nosotros.ejs) */
 router.get('/nosotros', function(req, res, next) {
-    res.render('nosotros', { tile: 'Nosotrots somos..' });
+    res.render('nosotros', { title: 'Nosotrots somos..' });
 });
 
 
